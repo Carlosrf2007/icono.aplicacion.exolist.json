@@ -1,22 +1,881 @@
 [
   {
-    "name": "Name of heading",
+    "name": "CINE PREMIUM",
     "samples": [
       {
-        "name": "Name of sample",
-        "uri": "The URI of the sample",
-        "extension": "[O] Sample type hint. Values: mpd, ism, m3u8",
-        "clip_start_position_ms": "[O] A start point to which the sample should be clipped, in milliseconds"
-        "clip_end_position_ms": "[O] An end point from which the sample should be clipped, in milliseconds"
-        "drm_scheme": "[O] Drm scheme if protected. Values: widevine, playready, clearkey",
-        "drm_license_uri": "[O] URI of the license server if protected",
-        "drm_force_default_license_uri": "[O] Whether to force use of "drm_license_uri" for key requests that include their own license URI",
-        "drm_key_request_properties": "[O] Key request headers if protected",
-        "drm_session_for_clear_content": "[O] Whether to attach a DRM session to clear video and audio tracks"
-        "drm_multi_session": "[O] Enables key rotation if protected",
-        "subtitle_uri": "[O] The URI of a subtitle sidecar file",
-        "subtitle_mime_type": "[O] The MIME type of subtitle_uri (required if subtitle_uri is set)",
-        "subtitle_language": "[O] The BCP47 language code of the subtitle file (ignored if subtitle_uri is not set)",
-        "ad_tag_uri": "[O] The URI of an ad tag to load via the IMA extension"
+        "name": "HBO",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      },
+      {
+        "name": "HBO 2",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo2/output.mpd"
+      },
+      {
+        "name": "HBO PLUS",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hboplus/output.mpd"
+      },
+      {
+        "name": "HBO FAMILY",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbofam/output.mpd"
+      },
+      {
+        "name": "HBO SIGNATURE",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbosig/output.mpd"
+      },
+      {
+        "name": "HBO XTREME",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hboxtr/output.mpd"
+      },
+      {
+        "name": "HBO MUNDIAL",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbomund/output.mpd"
+      },
+      {
+        "name": "HBO POP",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbopop/output.mpd"
+      },
+
+      {
+        "name": "CINEMAX",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/cinemax/output.mpd"
+      },
+      {
+        "name": "CINECANAL",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/anevia/live/localdisk/Cinecanal/SA_HLS/Cinecanal-avc1_499712=8.m3u8"
+      },
+      {
+        "name": "TNT",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/tnt/output.mpd"
+      },
+      {
+        "name": "TNT SERIES",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/tntseries/output.mpd"
+      },
+      {
+        "name": "AXN",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/anevia/live/localdisk/AXN/SA_HLS/AXN.m3u8"
+      },
+      {
+        "name": "AMC",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/anevia/live/localdisk/AMC/SA_HLS/AMC.m3u8"
+      },
+      {
+        "name": "TCM",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/tcm/output.mpd"
+      },
+      {
+        "name": "SYFY",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/syfy/output.mpd"
+      },
+      {
+        "name": "FX",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/fx/output.mpd"
+      },
+      {
+        "name": "SPACE",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/anevia/live/localdisk/Space/SA_HLS/Space-avc1_499712=5.m3u8"
+      },
+      {
+        "name": "COMEDY CENTRAL",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/comedy/output.mpd"
+      },
+      {
+        "name": "CINE ARGENTINO",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/cinear/output.mpd"
+      },
+      {
+        "name": "TBS",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/tbs/output.mpd"
+      },
+      {
+        "name": "STUDIO UNIVERSAL",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/anevia/live/localdisk/Studio_Universal/SA_HLS/Studio_Universal.m3u8"
+      },
+      {
+        "name": "UNIVERSAL TV",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/universal/output.mpd"
+      },
+      {
+        "name": "WARNER",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/warner/output.mpd"
       }
+    ]
+  },
+  {
+    "name": "CULTURA",
+    "samples": [
+      {
+        "name": "HISTORY",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/HistoryHD/SA_Live_dash_enc_2A/HistoryHD.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/history.json"
+      },
+      {
+        "name": "DISCOVERY",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c3eds/DiscoveryHD/SA_Live_dash_enc_2A/DiscoveryHD.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discovery.json"
+      },
+      {
+        "name": "DISCOVERY H&H",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c3eds/DiscoveryHomeHealthHD/SA_Live_dash_enc_2A/DiscoveryHomeHealthHD.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoveryhomehealth.json"
+      },
+      {
+        "name": "DISCOVERY ID",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/ID/SA_Live_dash_enc_2A/ID.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoveryid.json"
+      },
+      {
+        "name": "DISCOVERY SCIENCE",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c6eds/Discovery_Science/SA_Live_dash_enc_2A/Discovery_Science.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoveryscience.json"
+      },
+      {
+        "name": "DISCOVERY TURBO",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/DiscoveryTurbo/SA_Live_dash_enc_2A/DiscoveryTurbo.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoveryturbo.json"
+      },
+      {
+        "name": "DISCOVERY TURBO",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/DiscoveryTurbo/SA_Live_dash_enc_2A/DiscoveryTurbo.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoveryturbo.json"
+      },
+      {
+        "name": "DISCOVERY TEATER",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c6eds/Theater_HD/SA_Live_dash_enc_2A/Theater_HD.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoverytheather.json"
+      },
+      {
+        "name": "DISCOVERY TLC",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c6eds/TLC/SA_Live_dash_enc_2A/TLC.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoverytlc.json"
+      },
+      {
+        "name": "DISCOVERY WORL",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c6eds/Discovery_World_HD/SA_Live_dash_enc_2A/Discovery_World_HD.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoveryworld.json"
+      }
+    ]
+  },
+  {
+    "name": "PARAGUAY",
+    "samples": [
+      {
+        "name": "EVENTOS PR 1",
+        "uri": "https://southamerica-east-hls.mls.mycujoo.tv/esgp/claijf7nc0q0p01741o4ih3d8/master.m3u8"
+      },
+      {
+        "name": "EVENTOS PR 2",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/vp9/tears/tears_uhd.mpd"
+      },
+      {
+        "name": "EVENTOS PR 3",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/vp9/subsample/24fps/tears/tears.mpd"
+      },
+      {
+        "name": "MOTORSUR TV",
+        "uri": "https://video.camaronhosting.com/motorsur/motorsur/playlist.m3u8"
+      },
+      {
+        "name": "TRECE PY",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/RPC_C4/SA_Live_dash_enc_2A/RPC_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/rpc.json"
+      },
+      {
+        "name": "UNICANAL",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/UNICANAL_C4/SA_Live_dash_enc_2A/UNICANAL_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/rpc.json"
+      },
+      {
+        "name": "ABC TV",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c5eds/ABC_TV_C4/SA_Live_dash_enc_2A/ABC_TV_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/abctv.json"
+      },
+      {
+        "name": "NPY PY",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/NOTICIAS_PY_C4/SA_Live_dash_enc_2A/NOTICIAS_PY_C4.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/npy.json"
+      },
+      {
+        "name": "TELEFUTURO PY",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/TELEFUTURO_C4/SA_Live_dash_enc_2A/TELEFUTURO_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/telefuturo.json"
+      },
+      {
+        "name": "LA TELE",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/LA_TELE_C4/SA_Live_dash_enc_2A/LA_TELE_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/latele.json"
+      },
+      {
+        "name": "C9N",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c5eds/C9N_C4/SA_Live_dash_enc_2A/C9N_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/c9n.json"
+      },
+      {
+        "name": "PARAVISION",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/PARAVISION_C4/SA_Live_dash_enc_2A/PARAVISION_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/paravision.json"
+      },
+      {
+        "name": "SNT",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/SNT_C4/SA_Live_dash_enc_2A/SNT_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/snt.json"
+      },
+      {
+        "name": "GEN TV",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/GEN_TV/SA_Live_dash_enc_2A/GEN_TV.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/gentv.json"
+      },
+      {
+        "name": "SUR TV",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/SUR_TV_C4/SA_Live_dash_enc_2A/SUR_TV_C4.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/sur.json"
+      },
+      {
+        "name": "CANAL PRO",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/Canal_PRO/SA_Live_dash_enc_2A/Canal_PRO.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/pro.json"
+      },
+      {
+        "name": "5 DIAS PY",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/5_Dias_PY/SA_Live_dash_enc_2A/5_Dias_PY.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/5dias.json"
+      },
+      {
+        "name": "PY TV",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/Paraguay_TV/SA_Live_dash_enc_2A/Paraguay_TV.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/paraguaytv.json"
+      },
+      {
+        "name": "TV CÁMARA",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c4eds/TV_Camara/SA_Live_dash_enc_2A/TV_Camara.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/tvcamara.json"
+      }
+    ]
+  },
+  {
+    "name": "INFANTILES",
+    "samples": [
+      {
+        "name": "CARTONCITO",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c7eds/Boomerang/SA_Live_dash_enc_2A/Boomerang.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/cartoonito.json"
+      },
+      {
+        "name": "CARTOON NETWORT",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c3eds/CartoonNetwork/SA_Live_dash_enc_2A/CartoonNetwork.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/cartoonetwork.json"
+      },
+      {
+        "name": "DISCOVERY KIDS",
+        "uri": "https://edge-live16-sl.cvattv.com.ar/live/c6eds/Discovery_Kids/SA_Live_dash_enc_2A/Discovery_Kids.mpd",
+        "drm_scheme": "clearkey",
+        "drm_license_uri": "https://static.dplay.tech/imagenes/json/discoverykid.json"
+      }
+    ]
+  },
+  {
+    "name": "Widevine DASH (policy tests)",
+    "samples": [
+      {
+        "name": "SW secure crypto (L3)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO&provider=widevine_test"
+      },
+      {
+        "name": "SW secure decode",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_DECODE&provider=widevine_test"
+      },
+      {
+        "name": "HW secure crypto",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_CRYPTO&provider=widevine_test"
+      },
+      {
+        "name": "HW secure decode",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_DECODE&provider=widevine_test"
+      },
+      {
+        "name": "HW secure all (L1)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_ALL&provider=widevine_test"
+      },
+      {
+        "name": "30s license (fails at ~30s)",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_CAN_RENEW_FALSE_LICENSE_30S_PLAYBACK_30S&provider=widevine_test"
+      },
+      {
+        "name": "HDCP not required",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_NONE&provider=widevine_test"
+      },
+      {
+        "name": "HDCP 1.0 required",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V1&provider=widevine_test"
+      },
+      {
+        "name": "HDCP 2.0 required",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V2&provider=widevine_test"
+      },
+      {
+        "name": "HDCP 2.1 required",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V2_1&provider=widevine_test"
+      },
+      {
+        "name": "HDCP 2.2 required",
+        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V2_2&provider=widevine_test"
+      },
+      {
+        "name": "HDCP no digital output",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd",
+        "drm_scheme": "",
+        "drm_license_uri": ""
+      }
+    ]
+  },
+  {
+    "name": "DEPORTES",
+    "samples": [
+      {
+        "name": "HD (MP4, H264, Clear)",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      },
+      {
+        "name": "4K (MP4, H264, Clear)",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      },
+      {
+        "name": "HD (MP4, H264, Widevine cenc)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-wv-1080/manifest.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      },
+      {
+        "name": "4K (MP4, H264, Widevine cenc)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-wv-2160/manifest.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      }
+    ]
+  },
+  {
+    "name": "DASH - Multiple base URLs",
+    "samples": [
+      {
+        "name": "DASH - Multiple base URLs",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      },
+      {
+        "name": "DASH - Multiple base URLs (fail over)",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      }
+    ]
+  },
+  {
+    "name": "CANALES PARAGUAYOS",
+    "samples": [
+      {
+        "name": "Apple 4x3 basic stream (TS)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8"
+      },
+      {
+        "name": "Apple 16x9 basic stream (TS)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
+      },
+      {
+        "name": "Apple multivariant playlist advanced (TS)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8"
+      },
+      {
+        "name": "Apple multivariant playlist advanced (FMP4)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+      },
+      {
+        "name": "Apple media playlist (TS)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8"
+      },
+      {
+        "name": "Apple media playlist (AAC)",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      }
+    ]
+  },
+  {
+    "name": "CANALES ARGENTINOS",
+    "samples": [
+      {
+        "name": "Super speed (MP4, H264, Clear)",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      },
+      {
+        "name": "Super speed (MP4, H264, PlayReady)",
+        "uri": "https://playready.directtaps.net/smoothstreaming/SSWSS720H264PR/SuperSpeedway_720.ism/Manifest",
+        "drm_scheme": "playready",
+        "drm_license_uri": "https://playready.directtaps.net/pr/svc/rightsmanager.asmx",
+        "drm_force_default_license_uri": true
+      }
+    ]
+  },
+  {
+    "name": "EVENTOS PY",
+    "samples": [
+      {
+        "name": "Single inline linear",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator="
+      },
+      {
+        "name": "Single skippable inline",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator="
+      },
+      {
+        "name": "Single redirect linear",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirectlinear&correlator="
+      },
+      {
+        "name": "Single redirect error",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirecterror&nofb=1&correlator="
+      },
+      {
+        "name": "Single redirect broken (fallback)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirecterror&correlator="
+      },
+      {
+        "name": "VMAP pre-roll",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP pre-roll + bumper",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonlybumper&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP post-roll",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpostonly&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP post-roll + bumper",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpostonlybumper&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP pre-, mid- and post-rolls, single ads",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP pre-roll single ad, mid-roll standard pod with 3 ads, post-roll single ad",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpod&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP pre-roll single ad, mid-roll optimized pod with 3 ads, post-roll single ad",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpod&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP pre-roll single ad, mid-roll standard pod with 3 ads, post-roll single ad (bumpers around all ad breaks)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP pre-roll single ad, mid-roll optimized pod with 3 ads, post-roll single ad (bumpers around all ad breaks)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpodbumper&cmsid=496&vid=short_onecue&correlator="
+      },
+      {
+        "name": "VMAP pre-roll single ad, mid-roll standard pods with 5 ads every 10 seconds for 1:40, post-roll single ad",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&cmsid=496&vid=short_tencue&correlator="
+      },
+      {
+        "name": "VMAP empty midroll",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://vastsynthesizer.appspot.com/empty-midroll"
+      },
+      {
+        "name": "VMAP full, empty, full midrolls",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+        "ad_tag_uri": "https://vastsynthesizer.appspot.com/empty-midroll-2"
+      },
+      {
+        "name": "VMAP midroll at 1765 s",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
+        "ad_tag_uri": "https://vastsynthesizer.appspot.com/midroll-large"
+      },
+      {
+        "name": "VMAP midroll ad pod at 5 s with 10 skippable ads",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
+        "ad_tag_uri": "https://vastsynthesizer.appspot.com/midroll-10-skippable-ads"
+      },
+      {
+        "name": "Playlist with three ad tags",
+        "playlist": [
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/android-screens-10s.mp4",
+            "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator="
+          },
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/android-screens-25s.mp4",
+            "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&cmsid=496&vid=short_onecue&correlator="
+          },
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
+            "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&cmsid=496&vid=short_tencue&correlator="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "IMA DAI streams",
+    "samples": [
+      {
+        "name": "HLS VOD: Demo (skippable pre/post), single ads [30 s]",
+        "uri": "ssai://dai.google.com/?contentSourceId=2483977&videoId=ima-vod-skippable-test&format=2&adsId=1"
+      },
+      {
+        "name": "HLS VOD: Tears of Steel (pre/mid/mid/mid/post), single ads [10s]",
+        "uri": "ssai://dai.google.com/?contentSourceId=2528370&videoId=tears-of-steel&format=2&adsId=1"
+      },
+      {
+        "name": "HLS Live: Big Buck Bunny (mid), 3 ads each [10 s]",
+        "uri": "ssai://dai.google.com/?assetKey=sN_IYUG8STe1ZzhIIE_ksA&format=2&adsId=3"
+      },
+      {
+        "name": "DASH VOD: Tears of Steel (11 periods, pre/mid/post), 2/5/2 ads [5/10s]",
+        "uri": "ssai://dai.google.com/?contentSourceId=2559737&videoId=tos-dash&format=0&adsId=1"
+      },
+      {
+        "name": "Playlist: No ads - HLS VOD: Demo (skippable pre/post) - No ads",
+        "playlist": [
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          }
+        ]
+      },
+      {
+        "name": "Playlist: No ads - HLS VOD: Tears of steel (pre/mid/mid/mid/post) - No ads",
+        "playlist": [
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          }
+        ]
+      },
+      {
+        "name": "Playlist: No ads - HLS Live: Big Buck Bunny (mid) - No ads",
+        "playlist": [
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          }
+        ]
+      },
+      {
+        "name": "Playlist: No ads - DASH VOD: Tears of Steel (11 periods, pre/mid/post) - No ads",
+        "playlist": [
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          }
+        ]
+      },
+      {
+        "name": "Playlist: Client-side Ads - DASH VOD: Tears of Steel (11 periods, pre/mid/post) - No ads",
+        "playlist": [
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+            "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&cmsid=496&vid=short_onecue&correlator="
+          },
+          {
+            "uri": "ssai://dai.google.com/?contentSourceId=2559737&videoId=tos-dash&format=0&adsId=1"
+          },
+          {
+            "uri": "https://html5demos.com/assets/dizzy.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Playlists",
+    "samples": [
+      {
+        "name": "Cats -> Dogs",
+        "playlist": [
+          {
+            "uri": "https://html5demos.com/assets/dizzy.mp4"
+          },
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
+          }
+        ]
+      },
+      {
+        "name": "Audio -> Video -> Audio",
+        "playlist": [
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+          },
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
+          },
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/audio-141.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Clear -> Enc -> Clear -> Enc -> Enc",
+        "playlist": [
+          {
+            "uri": "https://html5demos.com/assets/dizzy.mp4"
+          },
+          {
+            "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_sd.mpd",
+            "drm_scheme": "widevine",
+            "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+          },
+          {
+            "uri": "https://html5demos.com/assets/dizzy.mp4"
+          },
+          {
+            "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_sd.mpd",
+            "drm_scheme": "widevine",
+            "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+          },
+          {
+            "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_sd.mpd",
+            "drm_scheme": "widevine",
+            "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+          }
+        ]
+      },
+      {
+        "name": "Manual ad insertion",
+        "playlist": [
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd",
+            "clip_end_position_ms": 10000
+          },
+          {
+            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
+            "clip_end_position_ms": 5000
+          },
+          {
+            "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd",
+            "clip_start_position_ms": 10000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AV1",
+    "samples": [
+      {
+        "name": "SD (WebM, Clear)",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      },
+      {
+        "name": "SD (WebM, Widevine cenc, L3)",
+        "uri": "https://storage.googleapis.com/wvmedia/2019/cenc/av1/24/webm/llama_av1_480p_400.webm",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO&provider=widevine_test"
+      },
+      {
+        "name": "SD (WebM, Widevine cenc, L1)",
+        "uri": "https://storage.googleapis.com/wvmedia/2019/cenc/av1/24/webm/llama_av1_480p_400.webm",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_ALL&provider=widevine_test"
+      }
+    ]
+  },
+  {
+    "name": "Subtitles",
+    "samples": [
+      {
+        "name": "TTML positioning",
+        "uri": "https://html5demos.com/assets/dizzy.mp4",
+        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ttml/netflix_ttml_sample.xml",
+        "subtitle_mime_type": "application/ttml+xml",
+        "subtitle_language": "en"
+      },
+      {
+        "name": "TTML Japanese features",
+        "uri": "https://html5demos.com/assets/dizzy.mp4",
+        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ttml/japanese-ttml.xml",
+        "subtitle_mime_type": "application/ttml+xml",
+        "subtitle_language": "ja"
+      },
+      {
+        "name": "TTML Netflix Japanese examples (IMSC1.1)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4",
+        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ttml/netflix_japanese_ttml.xml",
+        "subtitle_mime_type": "application/ttml+xml",
+        "subtitle_language": "ja"
+      },
+      {
+        "name": "WebVTT positioning",
+        "uri": "https://html5demos.com/assets/dizzy.mp4",
+        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/webvtt/numeric-lines.vtt",
+        "subtitle_mime_type": "text/vtt",
+        "subtitle_language": "en"
+      },
+      {
+        "name": "WebVTT Japanese features",
+        "uri": "https://html5demos.com/assets/dizzy.mp4",
+        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/webvtt/japanese.vtt",
+        "subtitle_mime_type": "text/vtt",
+        "subtitle_language": "ja"
+      },
+      {
+        "name": "SubStation Alpha positioning",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4",
+        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ssa/test-subs-position.ass",
+        "subtitle_mime_type": "text/x-ssa",
+        "subtitle_language": "en"
+      },
+      {
+        "name": "SubStation Alpha styling",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4",
+        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ssa/test-subs-styling.ass",
+        "subtitle_mime_type": "text/x-ssa",
+        "subtitle_language": "en"
+      },
+      {
+        "name": "MPEG-4 Timed Text",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Misc",
+    "samples": [
+      {
+        "name": "Dizzy (MP4)",
+        "uri": "https://is-tucuman.cdn.rcs.net.ar/mnp/hbo/output.mpd"
+      },
+      {
+        "name": "Apple 10s (AAC)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear0/fileSequence0.aac"
+      },
+      {
+        "name": "Apple 10s (TS)",
+        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence0.ts"
+      },
+      {
+        "name": "Android screens (MKV)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
+      },
+      {
+        "name": "Screens 360p (WebM, VP9)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-vp9-360.webm"
+      },
+      {
+        "name": "Screens 480p (FMP4, H264)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4"
+      },
+      {
+        "name": "Screens 1080p (FMP4, H264)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-137.mp4"
+      },
+      {
+        "name": "Screens audio (FMP4)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/audio-141.mp4"
+      },
+      {
+        "name": "Google Play (MP3)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-0/play.mp3"
+      },
+      {
+        "name": "Google Play (Ogg, Vorbis)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/ogg/play.ogg"
+      },
+      {
+        "name": "Google Play (Flac)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/flac/play.flac"
+      },
+      {
+        "name": "Big Buck Bunny 480p (MP4, AV1)",
+        "uri": "https://storage.googleapis.com/downloads.webmproject.org/av1/exoplayer/bbb-av1-480p.mp4"
+      },
+      {
+        "name": "One hour frame counter (MP4)",
+        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4"
+      }
+    ]
+  }
 ]
